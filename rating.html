@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="rating.css">
+    <title>Document</title>
+</head>
+
+<body>
+        <nav>
+        <div><img src="images/WhatsApp Image 2024-01-13 at 6.38.45 PM.jpeg" width="50px" class="image" alt="loading...">
+        </div>
+        <div class="container1">
+            <span class="text first-text"></span>
+            <span class="text sec-text" style="margin-left:-7rem ;">MISTRIGYY</span>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg></button>
+        </div>
+        <ul class="align">
+            <li><a href="index.html">Home</a></li>
+            <div class="dropdown">
+                <li><a href="" class="dropbtn">Account</a></li>
+                <div class="dropdown-content">
+                    <a href="signup.html">For Employees</a>
+                    <a href="signup.html">For Customers</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <li><a href="" class="dropbtn">Language</a></li>
+                <div class="dropdown-content">
+                    <a href="">English</a>
+                    <a href="">Hindi</a>
+                    <a href="">Punjabi</a>
+                </div>
+            </div>
+            <li><a href="rating.html">Rating</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="help.html">Help</a></li>
+        </ul>
+    </nav>
+    <div class="color">
+        <section class="head1">
+            <div class="heading1">Rate<span style="color: yellow;">Us</span></div>
+            <div class="para">
+                <p>We are always out there to help you! Fill out the form given <br>
+                    below and get a reply from us within 2 business days.</p>
+            </div>
+        </section>
+        <main class="main">
+            <form action="" class="form">
+                <input type="text" placeholder="Enter Your Name" class="contact"><br>
+                <input type="email" placeholder="Enter Your E-mail" class="contact"><br>
+                <textarea name="message" cols="30" rows="10" placeholder="Your's Feedback" class="contact"></textarea>
+            </form>
+        </main>
+        <div class="container d-flex justify-content-center mt-200" style="text-align: center;">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="stars">
+                        <form action="">
+                            <input class="star star-5" id="star-5" type="radio" name="star" />
+
+                            <label class="star star-5" for="star-5"></label>
+
+                            <input class="star star-4" id="star-4" type="radio" name="star" />
+
+                            <label class="star star-4" for="star-4"></label>
+
+                            <input class="star star-3" id="star-3" type="radio" name="star" />
+
+                            <label class="star star-3" for="star-3"></label>
+
+                            <input class="star star-2" id="star-2" type="radio" name="star" />
+
+                            <label class="star star-2" for="star-2"></label>
+
+                            <input class="star star-1" id="star-1" type="radio" name="star" />
+
+                            <label class="star star-1" for="star-1"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="submit.html"><button onclick="submit" class="submit">Submit</button></a>
+    </div>
+</body>
+
+</html>
